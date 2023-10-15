@@ -10,7 +10,7 @@ Moreover, it offers quantitative evaluations of diffusion models in short-medium
 The dataset can be downloadedd from [Weatherbench](https://dataserv.ub.tum.de/index.php/s/m1524895?path=%2F5.625deg)
 
 # Training 
-
+`cd scripts` <br />
 ## Autoencoders
 
 ### Variational Autoencoder 
@@ -28,3 +28,13 @@ For 1 channel 110-channel conditioning <br/ >
 
 
 ## Diffusion model
+Train model without time embedding<br/ >
+`python train_diffusion.py`<br/ >
+
+
+Train model with time embedding<br/ >
+`python train_diffusion_time_emb.py` <br/ >
+
+# Inference
+The inference code is provided in `notebooks/solver_analysis.ipynb`
+
