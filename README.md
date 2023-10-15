@@ -21,19 +21,19 @@ The dataset can be downloadedd from [Weatherbench](https://dataserv.ub.tum.de/in
 `python train_vq.py` <br />
 
 ### VQ-GAN  
-For 1 channel geopotential 500 <br/ >
-`python train_vqgan_1ch.py` <br/ >
-For 1 channel 110-channel conditioning <br/ >
-`python train_vqgan_110ch.py` <br/ >
+For 1 channel geopotential 500 <br />
+`python train_vqgan_1ch.py` <br />
+For 1 channel 110-channel conditioning <br />
+`python train_vqgan_110ch.py` <br />
 
 
 ## Diffusion model
-Train model without time embedding<br/ >
-`python train_diffusion.py`<br/ >
+Train model without time embedding<br />
+`python train_diffusion.py`<br />
 
 
-Train model with time embedding<br/ >
-`python train_diffusion_time_emb.py` <br/ >
+Train model with time embedding<br />
+`python train_diffusion_time_emb.py` <br />
 
 # Inference
 The inference code is provided in `notebooks/solver_analysis.ipynb`
