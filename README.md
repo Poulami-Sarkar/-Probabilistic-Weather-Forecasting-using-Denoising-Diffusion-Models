@@ -14,11 +14,11 @@ The dataset can be downloadedd from [Weatherbench](https://dataserv.ub.tum.de/in
 ## Autoencoders
 
 ### Variational Autoencoder 
-`python train_ae_nll.py`<br/ >
+`python train_ae_nll.py`<br />
 
 
 ### VQ- Autoencoder 
-`python train_vq.py` <br/ >
+`python train_vq.py` <br />
 
 ### VQ-GAN  
 For 1 channel geopotential 500 <br/ >
